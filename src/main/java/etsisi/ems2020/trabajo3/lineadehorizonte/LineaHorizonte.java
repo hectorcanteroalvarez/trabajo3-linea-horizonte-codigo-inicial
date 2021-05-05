@@ -64,14 +64,20 @@ public class LineaHorizonte {
             for(i=0; i<this.size(); i++)
             {
                 p=(getPunto(i));
-                out.print(p.getX());
-                out.print(" ");
-                out.print(p.getY());
-                out.println();
+                mostrar(out, p);
+
             }
             out.close();
         }
         catch(Exception e){}
+    }
+    
+    public void mostrar(PrintWriter out, Punto p) {
+    	
+        out.print(p.getX());
+        out.print(" ");
+        out.print(p.getY());
+        out.println();
     }
     
     public void imprimir (){
