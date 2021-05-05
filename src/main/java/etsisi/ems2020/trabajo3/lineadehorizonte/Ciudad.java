@@ -207,34 +207,29 @@ return linea;
 
     public void cargarEdificios (String fichero)
     {
-//    	int n = 6;
-//    	int i=0;
-//        int xi,y,xd;
-//        for(i=0;i<n;i++)
-//        {
-//            xi=(int)(Math.random()*100);
-//            y=(int)(Math.random()*100);
-//            xd=(int)(xi+(Math.random()*100));
-//            this.addEdificio(new Edificio(xi,y,xd));
-//        }
     	
         try
         {
-            int xi, y, xd;
             Scanner sr = new Scanner(new File(fichero));
 
             while(sr.hasNext())
             {
-                xi = sr.nextInt();
-                xd = sr.nextInt();
-                y = sr.nextInt();
-
-                Edificio Salida = new Edificio(xi, y, xd);
-                this.addEdificio(Salida);
+            	leerFichero (sr);
             }
         }
         catch(Exception e){} 
            
+    }
+    
+    public void leerFichero (Scanner sr) {
+    	int xi, y, xd;
+    	
+        xi = sr.nextInt();
+        xd = sr.nextInt();
+        y = sr.nextInt();
+
+        Edificio Salida = new Edificio(xi, y, xd);
+        this.addEdificio(Salida);
     }
 
     
