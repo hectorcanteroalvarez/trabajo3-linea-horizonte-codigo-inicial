@@ -1,0 +1,736 @@
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:10:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:10:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:12:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:12:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:15:	ModifiedCyclomaticComplexity:	ModifiedCyclomaticComplexity: The class 'Ciudad' has a Modified Cyclomatic Complexity of 3 (Highest = 12).
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:15:	ModifiedCyclomaticComplexity:	ModifiedCyclomaticComplexity: The class 'Ciudad' has a Modified Cyclomatic Complexity of 3 (Highest = 12).
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:15:	StdCyclomaticComplexity:	StdCyclomaticComplexity: The class 'Ciudad' has a Standard Cyclomatic Complexity of 3 (Highest = 12).
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:15:	StdCyclomaticComplexity:	StdCyclomaticComplexity: The class 'Ciudad' has a Standard Cyclomatic Complexity of 3 (Highest = 12).
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:17:	AvoidFieldNameMatchingTypeName:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:17:	AvoidFieldNameMatchingTypeName:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:17:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:17:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:17:	ImmutableField:	ImmutableField: Private field 'ciudad' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:17:	ImmutableField:	ImmutableField: Private field 'ciudad' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:17:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:17:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'n' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'n' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:27:	ShortVariable:	ShortVariable: Avoid variables with short names like n
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:27:	ShortVariable:	ShortVariable: Avoid variables with short names like n
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:28:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:28:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:28:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'i' is never used (overwritten on line 30)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:28:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'i' is never used (overwritten on line 30)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:29:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:29:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like xd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like xd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like xi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like xi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:35:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:35:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:42:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:42:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:43:	UnnecessaryCast:	UnnecessaryCast: Avoid unnecessary casts
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:43:	UnnecessaryCast:	UnnecessaryCast: Avoid unnecessary casts
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:47:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:47:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:47:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:47:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:47:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:47:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:51:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:51:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:51:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:51:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:51:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:51:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:61:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:61:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'pi' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'pi' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:64:	ShortVariable:	ShortVariable: Avoid variables with short names like pi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:64:	ShortVariable:	ShortVariable: Avoid variables with short names like pi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:65:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'pd' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:65:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'pd' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:65:	ShortVariable:	ShortVariable: Avoid variables with short names like pd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:65:	ShortVariable:	ShortVariable: Avoid variables with short names like pd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:69:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:69:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:69:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pd' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:69:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pd' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:69:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pi' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:69:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pi' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:69:	ShortVariable:	ShortVariable: Avoid variables with short names like pd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:69:	ShortVariable:	ShortVariable: Avoid variables with short names like pd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:69:	ShortVariable:	ShortVariable: Avoid variables with short names like pi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:69:	ShortVariable:	ShortVariable: Avoid variables with short names like pi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:71:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'linea' (lines '71'-'97').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:71:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'linea' (lines '71'-'97').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:72:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:72:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:72:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'p1' (lines '72'-'100').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:72:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'p1' (lines '72'-'100').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:72:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'p1' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:72:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'p1' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:72:	ShortVariable:	ShortVariable: Avoid variables with short names like p1
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:72:	ShortVariable:	ShortVariable: Avoid variables with short names like p1
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:73:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:73:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:73:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'p2' (lines '73'-'100').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:73:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'p2' (lines '73'-'100').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:73:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'p2' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:73:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'p2' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:73:	ShortVariable:	ShortVariable: Avoid variables with short names like p2
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:73:	ShortVariable:	ShortVariable: Avoid variables with short names like p2
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:74:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'edificio' (lines '74'-'79').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:74:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'edificio' (lines '74'-'79').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:74:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'edificio' (lines '74'-'100').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:74:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'edificio' (lines '74'-'100').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:74:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'edificio' is never used (overwritten on line 79)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:74:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'edificio' is never used (overwritten on line 79)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:92:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medio' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:92:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medio' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:94:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 's1' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:94:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 's1' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:94:	ShortVariable:	ShortVariable: Avoid variables with short names like s1
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:94:	ShortVariable:	ShortVariable: Avoid variables with short names like s1
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:95:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 's2' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:95:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 's2' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:95:	ShortVariable:	ShortVariable: Avoid variables with short names like s2
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:95:	ShortVariable:	ShortVariable: Avoid variables with short names like s2
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:96:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'a' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:96:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'a' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:96:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'aux' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:96:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'aux' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:96:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:96:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'b' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:96:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:96:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:96:	ShortVariable:	ShortVariable: Avoid variables with short names like a
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:96:	ShortVariable:	ShortVariable: Avoid variables with short names like a
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:96:	ShortVariable:	ShortVariable: Avoid variables with short names like b
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:96:	ShortVariable:	ShortVariable: Avoid variables with short names like b
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:103:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:103:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'p1'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'p1'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'p1'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'p1'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'p2'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'p2'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'p2'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'p2'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'paux'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'paux'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'paux'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'paux'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'paux'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'paux'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	CyclomaticComplexity:	CyclomaticComplexity: The method 'LineaHorizonteFussion(LineaHorizonte, LineaHorizonte, Punto, Punto, Punto)' has a cyclomatic complexity of 15.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	CyclomaticComplexity:	CyclomaticComplexity: The method 'LineaHorizonteFussion(LineaHorizonte, LineaHorizonte, Punto, Punto, Punto)' has a cyclomatic complexity of 15.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 's1' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 's1' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 's2' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 's2' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'LineaHorizonteFussion' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'LineaHorizonteFussion' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	ModifiedCyclomaticComplexity:	ModifiedCyclomaticComplexity: The method 'LineaHorizonteFussion' has a Modified Cyclomatic Complexity of 12.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	ModifiedCyclomaticComplexity:	ModifiedCyclomaticComplexity: The method 'LineaHorizonteFussion' has a Modified Cyclomatic Complexity of 12.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	ShortVariable:	ShortVariable: Avoid variables with short names like p1
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	ShortVariable:	ShortVariable: Avoid variables with short names like p1
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	ShortVariable:	ShortVariable: Avoid variables with short names like p2
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	ShortVariable:	ShortVariable: Avoid variables with short names like p2
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	ShortVariable:	ShortVariable: Avoid variables with short names like s1
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	ShortVariable:	ShortVariable: Avoid variables with short names like s1
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	ShortVariable:	ShortVariable: Avoid variables with short names like s2
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	ShortVariable:	ShortVariable: Avoid variables with short names like s2
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	StdCyclomaticComplexity:	StdCyclomaticComplexity: The method 'LineaHorizonteFussion' has a Standard Cyclomatic Complexity of 12.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	StdCyclomaticComplexity:	StdCyclomaticComplexity: The method 'LineaHorizonteFussion' has a Standard Cyclomatic Complexity of 12.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'p1' is never used (overwritten on line 115)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'p1' is never used (overwritten on line 115)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'p2' is never used (overwritten on line 116)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'p2' is never used (overwritten on line 116)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'paux' is never used (overwritten on lines 129, 179 and 190)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:108:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'paux' is never used (overwritten on lines 129, 179 and 190)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:110:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:110:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:112:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's1y' (lines '112'-'143').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:112:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's1y' (lines '112'-'143').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:112:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's1y' (lines '112'-'171').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:112:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's1y' (lines '112'-'171').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:112:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's2y' (lines '112'-'156').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:112:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's2y' (lines '112'-'156').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:112:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's2y' (lines '112'-'172').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:112:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's2y' (lines '112'-'172').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:112:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:112:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:113:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'salida' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:113:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'salida' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:115:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'p1' is never used (overwritten on line 130)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:115:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'p1' is never used (overwritten on line 130)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:116:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'p2' is never used (overwritten on line 131)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:116:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'p2' is never used (overwritten on line 131)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:118:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:118:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:120:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:120:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:122:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:122:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:127:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:127:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:127:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:127:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:129:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:129:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:136:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:136:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:141:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'prev' (lines '141'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:141:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'prev' (lines '141'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:143:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's1y' (lines '143'-'143').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:143:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's1y' (lines '143'-'143').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:143:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's1y' (lines '143'-'171').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:143:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's1y' (lines '143'-'171').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:143:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 's1y' (lines '143'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:143:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 's1y' (lines '143'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:144:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:144:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:149:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:149:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:154:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'prev' (lines '154'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:154:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'prev' (lines '154'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:156:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's2y' (lines '156'-'156').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:156:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's2y' (lines '156'-'156').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:156:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's2y' (lines '156'-'172').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:156:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's2y' (lines '156'-'172').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:156:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 's2y' (lines '156'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:156:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 's2y' (lines '156'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:157:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:157:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:161:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:161:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:161:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:161:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:166:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:166:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:166:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:166:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:169:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'prev' (lines '169'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:169:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'prev' (lines '169'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:171:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's1y' (lines '171'-'143').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:171:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's1y' (lines '171'-'143').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:171:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's1y' (lines '171'-'171').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:171:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's1y' (lines '171'-'171').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:171:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 's1y' (lines '171'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:171:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 's1y' (lines '171'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:172:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's2y' (lines '172'-'156').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:172:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's2y' (lines '172'-'156').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:172:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's2y' (lines '172'-'172').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:172:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 's2y' (lines '172'-'172').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:172:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 's2y' (lines '172'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:172:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 's2y' (lines '172'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:177:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:177:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:184:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'prev' (lines '184'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:184:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'prev' (lines '184'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:186:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:186:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:188:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:188:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:195:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'prev' (lines '195'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:195:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'prev' (lines '195'-'200').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:197:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:197:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:208:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:208:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:208:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fichero' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:208:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fichero' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:223:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:223:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:223:	ShortVariable:	ShortVariable: Avoid variables with short names like xd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:223:	ShortVariable:	ShortVariable: Avoid variables with short names like xd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:223:	ShortVariable:	ShortVariable: Avoid variables with short names like xi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:223:	ShortVariable:	ShortVariable: Avoid variables with short names like xi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:223:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:223:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:224:	CloseResource:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:224:	CloseResource:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:224:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sr' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:224:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sr' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:224:	ShortVariable:	ShortVariable: Avoid variables with short names like sr
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:224:	ShortVariable:	ShortVariable: Avoid variables with short names like sr
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:232:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:232:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:232:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'Salida' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:232:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'Salida' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:232:	LocalVariableNamingConventions:	LocalVariableNamingConventions: The local variable name 'Salida' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:232:	LocalVariableNamingConventions:	LocalVariableNamingConventions: The local variable name 'Salida' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:232:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'Salida' starts with uppercase character.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:232:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'Salida' starts with uppercase character.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:236:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:236:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:236:	EmptyCatchBlock:	EmptyCatchBlock: Avoid empty catch blocks
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:236:	EmptyCatchBlock:	EmptyCatchBlock: Avoid empty catch blocks
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:241:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:241:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:241:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'n' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:241:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'n' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:241:	ShortVariable:	ShortVariable: Avoid variables with short names like n
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:241:	ShortVariable:	ShortVariable: Avoid variables with short names like n
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:243:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'i' (lines '243'-'245').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:243:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'i' (lines '243'-'245').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:243:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:243:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:243:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'i' is never used (overwritten on line 245)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:243:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'i' is never used (overwritten on line 245)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:244:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:244:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:244:	ShortVariable:	ShortVariable: Avoid variables with short names like xd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:244:	ShortVariable:	ShortVariable: Avoid variables with short names like xd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:244:	ShortVariable:	ShortVariable: Avoid variables with short names like xi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:244:	ShortVariable:	ShortVariable: Avoid variables with short names like xi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:244:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:244:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:250:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Ciudad.java:250:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:3:	DataClass:	DataClass: The class 'Edificio' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:3:	DataClass:	DataClass: The class 'Edificio' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:4:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:4:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:4:	ShortVariable:	ShortVariable: Avoid variables with short names like xi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:4:	ShortVariable:	ShortVariable: Avoid variables with short names like xi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:5:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:5:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:6:	ShortVariable:	ShortVariable: Avoid variables with short names like xd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:6:	ShortVariable:	ShortVariable: Avoid variables with short names like xd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'xd' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'xd' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'xi' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'xi' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	ShortVariable:	ShortVariable: Avoid variables with short names like xd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	ShortVariable:	ShortVariable: Avoid variables with short names like xd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	ShortVariable:	ShortVariable: Avoid variables with short names like xi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	ShortVariable:	ShortVariable: Avoid variables with short names like xi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:14:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'xi' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'xi' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:23:	ShortVariable:	ShortVariable: Avoid variables with short names like xi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:23:	ShortVariable:	ShortVariable: Avoid variables with short names like xi
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'xd' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'xd' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:35:	ShortVariable:	ShortVariable: Avoid variables with short names like xd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Edificio.java:35:	ShortVariable:	ShortVariable: Avoid variables with short names like xd
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.io.File'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.io.File'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:3:	UnusedImports:	UnusedImports: Unused import 'java.io.File'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:3:	UnusedImports:	UnusedImports: Unused import 'java.io.File'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:11:	AvoidFieldNameMatchingTypeName:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:11:	AvoidFieldNameMatchingTypeName:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:11:	FieldNamingConventions:	FieldNamingConventions: The field name 'LineaHorizonte' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:11:	FieldNamingConventions:	FieldNamingConventions: The field name 'LineaHorizonte' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:11:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:11:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:11:	UnusedPrivateField:	UnusedPrivateField: Avoid unused private fields such as 'LineaHorizonte'.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:11:	UnusedPrivateField:	UnusedPrivateField: Avoid unused private fields such as 'LineaHorizonte'.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:11:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'LineaHorizonte' starts with uppercase character.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:11:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'LineaHorizonte' starts with uppercase character.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:24:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:24:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'p' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'p' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like p
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like p
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:35:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:35:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:35:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:35:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidPrefixingMethodParameters:	AvoidPrefixingMethodParameters: Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidPrefixingMethodParameters:	AvoidPrefixingMethodParameters: Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'fileWriter'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'fileWriter'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'i'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'i'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'i'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'i'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'out'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'out'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'p'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'p'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'p'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'p'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fichero' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fichero' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	ShortVariable:	ShortVariable: Avoid variables with short names like p
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	ShortVariable:	ShortVariable: Avoid variables with short names like p
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'fileWriter' is never used (overwritten on line 61)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'fileWriter' is never used (overwritten on line 61)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'i' is never used (overwritten on line 64)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'i' is never used (overwritten on line 64)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'out' is never used (overwritten on line 62)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'out' is never used (overwritten on line 62)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'p' is never used (overwritten on line 60)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:56:	UnusedAssignment:	UnusedAssignment: The initial value of parameter 'p' is never used (overwritten on line 60)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:60:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'p' is never used (overwritten on line 66)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:60:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'p' is never used (overwritten on line 66)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:66:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:66:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:74:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:74:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:74:	EmptyCatchBlock:	EmptyCatchBlock: Avoid empty catch blocks
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:74:	EmptyCatchBlock:	EmptyCatchBlock: Avoid empty catch blocks
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:77:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:77:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:80:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:80:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:81:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:81:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:85:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:85:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:85:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:85:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'i' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:85:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:85:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:86:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'p' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:86:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'p' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:86:	ShortVariable:	ShortVariable: Avoid variables with short names like p
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:86:	ShortVariable:	ShortVariable: Avoid variables with short names like p
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:87:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:87:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:87:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:87:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:87:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:87:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:88:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:88:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:88:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:88:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:88:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:88:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:91:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:91:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:92:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:92:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:93:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/LineaHorizonte.java:93:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:6:	ShortClassName:	ShortClassName: Avoid short class names like Main
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:6:	ShortClassName:	ShortClassName: Avoid short class names like Main
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:6:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:6:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:8:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:8:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:12:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'p' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:12:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'p' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:12:	ShortVariable:	ShortVariable: Avoid variables with short names like p
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:12:	ShortVariable:	ShortVariable: Avoid variables with short names like p
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:13:	CloseResource:	CloseResource: Ensure that resources like this FileWriter object are closed after use
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:13:	CloseResource:	CloseResource: Ensure that resources like this FileWriter object are closed after use
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:13:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fileWriter' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:13:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fileWriter' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:14:	CloseResource:	CloseResource: Ensure that resources like this PrintWriter object are closed after use
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:14:	CloseResource:	CloseResource: Ensure that resources like this PrintWriter object are closed after use
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:14:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'out' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:14:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'out' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:15:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'i' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:15:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'i' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:15:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:15:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:23:	ShortVariable:	ShortVariable: Avoid variables with short names like c
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:23:	ShortVariable:	ShortVariable: Avoid variables with short names like c
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:27:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'linea' (lines '27'-'28').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:27:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'linea' (lines '27'-'28').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:27:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'linea' is never used (overwritten on line 28)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:27:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'linea' is never used (overwritten on line 28)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:31:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:31:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:32:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:32:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:33:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'p2' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:33:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'p2' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:33:	ShortVariable:	ShortVariable: Avoid variables with short names like p2
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:33:	ShortVariable:	ShortVariable: Avoid variables with short names like p2
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:34:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Main.java:34:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:9:	DataClass:	DataClass: The class 'Punto' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=4, WMC=9)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:9:	DataClass:	DataClass: The class 'Punto' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=4, WMC=9)
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the x field if you want a default access modifier
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the x field if you want a default access modifier
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:10:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:10:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:10:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:10:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:11:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the y field if you want a default access modifier
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:11:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the y field if you want a default access modifier
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:11:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:11:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:11:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:11:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:26:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:26:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:26:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:26:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:42:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:42:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:54:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:54:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:58:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:58:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:58:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'b' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:58:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'b' is not assigned and could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:58:	ShortVariable:	ShortVariable: Avoid variables with short names like b
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:58:	ShortVariable:	ShortVariable: Avoid variables with short names like b
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:59:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'dis' (lines '59'-'66').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:59:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'dis' (lines '59'-'66').
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:59:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dis' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:59:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dis' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:59:	PrematureDeclaration:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:59:	PrematureDeclaration:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:59:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'dis'.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:59:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'dis'.
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:60:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:60:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:60:	UnconditionalIfStatement:	UnconditionalIfStatement: Do not use if statements that are always true or always false
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:60:	UnconditionalIfStatement:	UnconditionalIfStatement: Do not use if statements that are always true or always false
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:61:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:61:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:61:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:61:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:62:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'cateto1' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:62:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'cateto1' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:63:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'cateto2' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:63:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'cateto2' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'hipotenusa' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'hipotenusa' could be declared final
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:65:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'hipotenusa'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:65:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'hipotenusa'
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:72:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:72:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:73:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:73:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:74:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/etsisi/ems2020/trabajo3/lineadehorizonte/Punto.java:74:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'sTestName' is not assigned and could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'sTestName' is not assigned and could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:19:	MissingOverride:	MissingOverride: The method 'setUp()' is missing an @Override annotation.
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:19:	MissingOverride:	MissingOverride: The method 'setUp()' is missing an @Override annotation.
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:19:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:19:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:24:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:24:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:27:	ShortVariable:	ShortVariable: Avoid variables with short names like c
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:27:	ShortVariable:	ShortVariable: Avoid variables with short names like c
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e1' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e1' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:32:	ShortVariable:	ShortVariable: Avoid variables with short names like e1
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:32:	ShortVariable:	ShortVariable: Avoid variables with short names like e1
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e2' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e2' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:34:	ShortVariable:	ShortVariable: Avoid variables with short names like e2
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:34:	ShortVariable:	ShortVariable: Avoid variables with short names like e2
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:36:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e3' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:36:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e3' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:36:	ShortVariable:	ShortVariable: Avoid variables with short names like e3
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:36:	ShortVariable:	ShortVariable: Avoid variables with short names like e3
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e4' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e4' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:38:	ShortVariable:	ShortVariable: Avoid variables with short names like e4
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:38:	ShortVariable:	ShortVariable: Avoid variables with short names like e4
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e5' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e5' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:40:	ShortVariable:	ShortVariable: Avoid variables with short names like e5
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:40:	ShortVariable:	ShortVariable: Avoid variables with short names like e5
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:42:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e6' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:42:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e6' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:42:	ShortVariable:	ShortVariable: Avoid variables with short names like e6
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:42:	ShortVariable:	ShortVariable: Avoid variables with short names like e6
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:47:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:47:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:47:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:47:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:47:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:47:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:48:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:48:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:48:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:48:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:48:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:48:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:49:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:49:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:49:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:49:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:49:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:49:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:50:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:50:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:50:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:50:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:50:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:50:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:51:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:51:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:51:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:51:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:51:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:51:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:52:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:52:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:52:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:52:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:52:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:52:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:53:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:53:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:53:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:53:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:53:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:53:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:54:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:54:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:54:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:54:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:54:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:54:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:55:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:55:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:55:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:55:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:55:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:55:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:57:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:57:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:63:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:63:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:63:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:63:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:65:	ShortVariable:	ShortVariable: Avoid variables with short names like c
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:65:	ShortVariable:	ShortVariable: Avoid variables with short names like c
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:70:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e1' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:70:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e1' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:70:	ShortVariable:	ShortVariable: Avoid variables with short names like e1
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:70:	ShortVariable:	ShortVariable: Avoid variables with short names like e1
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:72:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e2' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:72:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e2' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:72:	ShortVariable:	ShortVariable: Avoid variables with short names like e2
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:72:	ShortVariable:	ShortVariable: Avoid variables with short names like e2
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:76:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:76:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:76:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:76:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:76:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:76:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:77:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:77:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:77:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:77:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:77:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:77:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:78:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:78:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:78:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:78:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:78:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:78:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:80:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:80:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:87:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:87:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:87:	MissingOverride:	MissingOverride: The method 'tearDown()' is missing an @Override annotation.
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:87:	MissingOverride:	MissingOverride: The method 'tearDown()' is missing an @Override annotation.
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:87:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:87:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:90:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:90:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:90:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:90:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:91:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:91:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:92:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'failure' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:92:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'failure' could be declared final
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:93:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/test/java/etsisi/ems2020/trabajo3/lineadehorizonte/CiudadTest.java:93:	SystemPrintln:	SystemPrintln: System.out.println is used
