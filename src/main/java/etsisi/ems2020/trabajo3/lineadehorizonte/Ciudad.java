@@ -68,46 +68,40 @@ ciudad = new ArrayList <Edificio>();
     
 public LineaHorizonte crearLineaHorizonte(int pi, int pd)
 {
-	LineaHorizonte linea = new LineaHorizonte(); // LineaHorizonte de salida
-	Edificio edificio = new Edificio();    
+	LineaHorizonte linea = new LineaHorizonte(); // LineaHorizonte de salida  
         
-	// Caso base, la ciudad solo tiene un edificio, el perfil es el de ese edificio. 
-	if(pi==pd) 
+	if(pi==pd) // Caso base, la ciudad solo tiene un edificio, el perfil es el de ese edificio. 
 	{
-		edificio = this.getEdificio(pi); // Obtenemos el único edificio y lo guardo en b
-		linea = soloUnEdificio(edificio);
+		linea = soloUnEdificio(pi);
 	}
 	else
 	{
-		// Edificio mitad
-		int medio=(pi+pd)/2;
-		
+		int medio=(pi+pd)/2; // Edificio mitad
 		LineaHorizonte s1 = this.crearLineaHorizonte(pi,medio);  
 		LineaHorizonte s2 = this.crearLineaHorizonte(medio+1,pd);
-		Punto a=null, b=null, aux=null;
-		linea = LineaHorizonteFussion(s1,s2,a,b,aux); 
+		linea = LineaHorizonteFussion(s1,s2);
 	}
 	return linea;
 }
 
-public LineaHorizonte soloUnEdificio(Edificio edificio) {
+public LineaHorizonte soloUnEdificio(int pi) {
+	Edificio edificio = new Edificio();
 	LineaHorizonte linea = new LineaHorizonte(); // LineaHorizonte de salida
-	Punto p1 = new Punto();   // punto donde se guardara en su X la Xi del efificio y en su Y la altura del edificio
-	Punto p2 = new Punto();   // punto donde se guardara en su X la Xd del efificio y en su Y le pondremos el valor 0
 	
-	// En cada punto guardamos la coordenada X y la altura.
-	p1.setX(edificio.getXi());       
+	edificio = this.getEdificio(pi); // Obtenemos el único edificio y lo guardo en b
+	Punto p1 = new Punto();       	 // punto donde se guardara en su X la Xi del efificio y en su Y la altura del edificio
+	Punto p2 = new Punto();  	     // punto donde se guardara en su X la Xd del efificio y en su Y le pondremos el valor 0
+	
+	p1.setX(edificio.getXi());       // En cada punto guardamos la coordenada X y la altura. 
 	p1.setY(edificio.getY());        // guardo la altura
 	p2.setX(edificio.getXd());       
 	p2.setY(0);                      // como el edificio se compone de 3 variables, en la Y de p2 le añadiremos un 0
-	// Añado los puntos a la línea del horizonte
-	linea.addPunto(p1);      
+	
+	linea.addPunto(p1);      		 // Añado los puntos a la línea del horizonte
 	linea.addPunto(p2);
 	
 	return linea;
 }
-
-
 
 /**
  * Función encargada de fusionar los dos LineaHorizonte obtenidos por la técnica divide y
@@ -115,15 +109,15 @@ public LineaHorizonte soloUnEdificio(Edificio edificio) {
  * edificio solapa a otro, si hay edificios contiguos, etc. y solucionar dichos
  * problemas para que el LineaHorizonte calculado sea el correcto.
  */
-public LineaHorizonte LineaHorizonteFussion(LineaHorizonte s1,LineaHorizonte s2, Punto p1, Punto p2, Punto paux)
+public LineaHorizonte LineaHorizonteFussion(LineaHorizonte s1,LineaHorizonte s2/*, Punto paux*/)
 {
 	// en estas variables guardaremos las alturas de los puntos anteriores, en s1y la del s1, en s2y la del s2 
 	// y en prev guardaremos la previa del segmento anterior introducido
     int s1y=-1, s2y=-1, prev=-1;    
     LineaHorizonte salida = new LineaHorizonte(); // LineaHorizonte de salida
     
-    p1 = new Punto();         // punto donde guardaremos el primer punto del LineaHorizonte s1
-    p2 = new Punto();         // punto donde guardaremos el primer punto del LineaHorizonte s2
+    Punto p1 = new Punto();         // punto donde guardaremos el primer punto del LineaHorizonte s1
+    Punto p2 = new Punto();         // punto donde guardaremos el primer punto del LineaHorizonte s2
     
     System.out.println("==== S1 ====");
     s1.imprimir();
@@ -136,7 +130,7 @@ public LineaHorizonte LineaHorizonteFussion(LineaHorizonte s1,LineaHorizonte s2,
     //Mientras tengamos elementos en s1 y en s2
     while ((!s1.isEmpty()) && (!s2.isEmpty())) 
     {
-        paux = new Punto();  // Inicializamos la variable paux
+    	Punto paux = new Punto();  // Inicializamos la variable paux
         p1 = s1.getPunto(0); // guardamos el primer elemento de s1
         p2 = s2.getPunto(0); // guardamos el primer elemento de s2
 
@@ -186,7 +180,7 @@ public LineaHorizonte LineaHorizonteFussion(LineaHorizonte s1,LineaHorizonte s2,
     }
     while ((!s1.isEmpty())) //si aun nos quedan elementos en el s1
     {
-        paux=s1.getPunto(0); // guardamos en paux el primer punto
+        Punto paux=s1.getPunto(0); // guardamos en paux el primer punto
         
         if (paux.getY()!=prev) // si paux no tiene la misma altura del segmento previo
         {
@@ -197,7 +191,7 @@ public LineaHorizonte LineaHorizonteFussion(LineaHorizonte s1,LineaHorizonte s2,
     }
     while((!s2.isEmpty())) //si aun nos quedan elementos en el s2
     {
-        paux=s2.getPunto(0); // guardamos en paux el primer punto
+       Punto paux=s2.getPunto(0); // guardamos en paux el primer punto
        
         if (paux.getY()!=prev) // si paux no tiene la misma altura del segmento previo
         {
