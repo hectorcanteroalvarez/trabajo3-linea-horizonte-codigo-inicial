@@ -65,7 +65,6 @@ public class LineaHorizonte {
             {
                 p=(getPunto(i));
                 mostrar(out, p);
-
             }
             out.close();
         }
