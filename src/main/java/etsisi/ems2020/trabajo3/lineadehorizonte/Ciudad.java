@@ -115,123 +115,120 @@ public class Ciudad {
 		alturas[0]=-1; 
 		alturas[1]=-1; 
 		alturas[2]=-1;
+		
+		LineaHorizonte[] fusion = new LineaHorizonte[2];
+		fusion[0] = s1;
+		fusion[1] = s2;
 				
 		LineaHorizonte salida = new LineaHorizonte(); // LineaHorizonte de salida
 		
 		mostrarLíneas(s1, s2);
 		
-		elementosRestantesAmbos(alturas, salida, s1, s2);
+		elementosRestantesAmbos(alturas, salida, fusion);
 
-		while ((!s1.isEmpty())) //si aun nos quedan elementos en el s1
-		{
-			elementosRestantes1(s1, alturas, salida);
-		}
-		while((!s2.isEmpty())) //si aun nos quedan elementos en el s2
-		{
-			elementosRestantes2(s2, alturas, salida);
-		}
+		elementosRestantes1(s1, alturas, salida);
+		
+		elementosRestantes2(s2, alturas, salida);
+		
 		return salida;
 	}
 	
-	private void xMenor(Punto p1, int[] alturas, LineaHorizonte salida, LineaHorizonte s1) {
+	private void xMenor(int[] alturas, LineaHorizonte salida, LineaHorizonte s1) {
 		// Inicializamos la variable paux
 		Punto paux = new Punto();
 		
-		paux.setX(p1.getX());                // guardamos en paux esa X
-		paux.setY(Math.max(p1.getY(), alturas[1])); // y hacemos que el maximo entre la Y del s1 y la altura alturas[2]ia del s2 sea la altura Y de paux
+		paux.setX(s1.getPunto(0).getX());                // guardamos en paux esa X
+		paux.setY(Math.max(s1.getPunto(0).getY(), alturas[1])); // y hacemos que el maximo entre la Y del s1 y la altura alturas[2]ia del s2 sea la altura Y de paux
 
 		if (paux.getY()!=alturas[2]) // si este maximo no es igual al del segmento anterior
 		{
 			salida.addPunto(paux); // añadimos el punto al LineaHorizonte de salida
 			alturas[2] = paux.getY();    // actualizamos alturas[2]
 		}
-		alturas[0] = p1.getY();   // actualizamos la altura alturas[0]
+		alturas[0] = s1.getPunto(0).getY();   // actualizamos la altura alturas[0]
 		s1.borrarPunto(0); // en cualquier caso eliminamos el punto de s1 (tanto si se añade como si no es valido)
 	}
 	
-	private void xMayor(Punto p2, int[] alturas, LineaHorizonte salida, LineaHorizonte s2) {
+	private void xMayor(int[] alturas, LineaHorizonte salida, LineaHorizonte s2) {
 		// Inicializamos la variable paux
 		Punto paux = new Punto();
 		
-		paux.setX(p2.getX());                // guardamos en paux esa X
-		paux.setY(Math.max(p2.getY(), alturas[0])); // y hacemos que el maximo entre la Y del s2 y la altura alturas[2]ia del s1 sea la altura Y de paux
+		paux.setX(s2.getPunto(0).getX());                // guardamos en paux esa X
+		paux.setY(Math.max(s2.getPunto(0).getY(), alturas[0])); // y hacemos que el maximo entre la Y del s2 y la altura alturas[2]ia del s1 sea la altura Y de paux
 
 		if (paux.getY()!=alturas[2]) // si este maximo no es igual al del segmento anterior
 		{
 			salida.addPunto(paux); // añadimos el punto al LineaHorizonte de salida
 			alturas[2] = paux.getY();    // actualizamos alturas[2]
 		}
-		alturas[1] = p2.getY();   // actualizamos la altura alturas[1]
+		alturas[1] = s2.getPunto(0).getY();   // actualizamos la altura alturas[1]
 		s2.borrarPunto(0); // en cualquier caso eliminamos el punto de s2 (tanto si se añade como si no es valido)
 	}
 	
-	private void xIgual(Punto p1, Punto p2, int[] alturas, LineaHorizonte salida, LineaHorizonte s1, LineaHorizonte s2) {
-		if ((p1.getY() > p2.getY()) && (p1.getY()!=alturas[2])) // guardaremos aquel punto que tenga la altura mas alta
+	private void xIgual(int[] alturas, LineaHorizonte salida, LineaHorizonte [] fusion) {
+		if ((fusion[0].getPunto(0).getY() > fusion[1].getPunto(0).getY()) && (fusion[0].getPunto(0).getY()!=alturas[2])) // guardaremos aquel punto que tenga la altura mas alta
 		{
-			salida.addPunto(p1);
-			alturas[2] = p1.getY();
+			salida.addPunto(fusion[0].getPunto(0));
+			alturas[2] = fusion[0].getPunto(0).getY();
 		}
-		if ((p1.getY() <= p2.getY()) && (p2.getY()!=alturas[2]))
+		if ((fusion[0].getPunto(0).getY() <= fusion[1].getPunto(0).getY()) && (fusion[1].getPunto(0).getY()!=alturas[2]))
 		{
-			salida.addPunto(p2);
-			alturas[2] = p2.getY();
+			salida.addPunto(fusion[1].getPunto(0));
+			alturas[2] = fusion[1].getPunto(0).getY();
 		}
-		alturas[0] = p1.getY();   // actualizamos la alturas[0] e alturas[1]
-		alturas[1] = p2.getY();
-		s1.borrarPunto(0); // eliminamos el punto del s1 y del s2
-		s2.borrarPunto(0);
+		alturas[0] = fusion[0].getPunto(0).getY();   // actualizamos la alturas[0] e alturas[1]
+		alturas[1] = fusion[1].getPunto(0).getY();
+		fusion[0].borrarPunto(0); // eliminamos el punto del s1 y del s2
+		fusion[1].borrarPunto(0);
 	}
 	
 	private void elementosRestantes1(LineaHorizonte s1, int[] alturas, LineaHorizonte salida) {
-		Punto paux=s1.getPunto(0); // guardamos en paux el primer punto
-
-		if (paux.getY()!=alturas[2]) // si paux no tiene la misma altura del segmento alturas[2]io
-		{
-			salida.addPunto(paux); // lo añadimos al LineaHorizonte de salida
-			alturas[2] = paux.getY();    // y actualizamos alturas[2]
-		}
-		s1.borrarPunto(0); // en cualquier caso eliminamos el punto de s1 (tanto si se añade como si no es valido)
 		
+		while ((!s1.isEmpty())) //si aun nos quedan elementos en el s1
+		{
+			Punto paux=s1.getPunto(0); // guardamos en paux el primer punto
+	
+			if (paux.getY()!=alturas[2]) // si paux no tiene la misma altura del segmento alturas[2]io
+			{
+				salida.addPunto(paux); // lo añadimos al LineaHorizonte de salida
+				alturas[2] = paux.getY();    // y actualizamos alturas[2]
+			}
+			s1.borrarPunto(0); // en cualquier caso eliminamos el punto de s1 (tanto si se añade como si no es valido)
+		}
 	}
 	
 	private void elementosRestantes2(LineaHorizonte s2, int[] alturas, LineaHorizonte salida) {
-		Punto paux=s2.getPunto(0); // guardamos en paux el primer punto
-
-		if (paux.getY()!=alturas[2]) // si paux no tiene la misma altura del segmento alturas[2]io
+		while((!s2.isEmpty())) //si aun nos quedan elementos en el s2
 		{
-			salida.addPunto(paux); // lo añadimos al LineaHorizonte de salida
-			alturas[2] = paux.getY();    // y actualizamos alturas[2]
+			Punto paux=s2.getPunto(0); // guardamos en paux el primer punto
+
+			if (paux.getY()!=alturas[2]) // si paux no tiene la misma altura del segmento alturas[2]io
+			{
+				salida.addPunto(paux); // lo añadimos al LineaHorizonte de salida
+				alturas[2] = paux.getY();    // y actualizamos alturas[2]
+			}
+			s2.borrarPunto(0); // en cualquier caso eliminamos el punto de s2 (tanto si se añade como si no es valido)
 		}
-		s2.borrarPunto(0); // en cualquier caso eliminamos el punto de s2 (tanto si se añade como si no es valido)
 	}
 	
-	private void elementosRestantesAmbos(int[] alturas, LineaHorizonte salida, LineaHorizonte s1, LineaHorizonte s2) {
+	private void elementosRestantesAmbos(int[] alturas, LineaHorizonte salida, LineaHorizonte [] fusion) {
 		//Mientras tengamos elementos en s1 y en s2
-		while ((!s1.isEmpty()) && (!s2.isEmpty())) 
+		while ((!fusion[0].isEmpty()) && (!fusion[1].isEmpty())) 
 		{
-			// punto donde guardaremos el primer punto del LineaHorizonte s1
-			Punto p1 = new Punto();
-			// punto donde guardaremos el primer punto del LineaHorizonte s2
-			Punto p2 = new Punto();
-			
-			// guardamos el primer elemento de s1
-			p1 = s1.getPunto(0);
-			// guardamos el primer elemento de s2
-			p2 = s2.getPunto(0); 
-			
 			// si X del s1 es menor que la X del s2
-			if (p1.getX() < p2.getX()) 
+			if (fusion[0].getPunto(0).getX() < fusion[1].getPunto(0).getX()) 
 			{
-				xMenor(p1, alturas, salida, s1);
+				xMenor(alturas, salida, fusion[0]);
 			}
 			// si X del s1 es mayor que la X del s2
-			else if (p1.getX() > p2.getX()) 
+			else if (fusion[0].getPunto(0).getX() > fusion[1].getPunto(0).getX()) 
 			{
-				xMayor(p2, alturas, salida, s2);
+				xMayor(alturas, salida, fusion[1]);
 			}
 			else // si la X del s1 es igual a la X del s2
 			{
-				 xIgual(p1, p2, alturas, salida, s1, s2);
+				
+				xIgual(alturas, salida, fusion);
 			}
 		}		
 	}
@@ -263,7 +260,6 @@ public class Ciudad {
 		}
 		catch(Exception e){} 
 	}
-
 
 	public void leerFichero (Scanner sr) {
 		int xi, y, xd;
