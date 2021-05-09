@@ -117,22 +117,11 @@ public class Ciudad {
 		alturas[2]=-1;
 				
 		LineaHorizonte salida = new LineaHorizonte(); // LineaHorizonte de salida
-		Punto p1 = new Punto();         // punto donde guardaremos el primer punto del LineaHorizonte s1
-		Punto p2 = new Punto();         // punto donde guardaremos el primer punto del LineaHorizonte s2
 		
 		mostrarLíneas(s1, s2);
 		
+		elementosRestantesAmbos(alturas, salida, s1, s2);
 
-		//Mientras tengamos elementos en s1 y en s2
-		while ((!s1.isEmpty()) && (!s2.isEmpty())) 
-		{
-			Punto paux = new Punto();  // Inicializamos la variable paux
-			//LineaFusion almacen = new LineaFusion(p1, p2, paux, alturas, salida, s1, s2);
-			p1 = s1.getPunto(0); // guardamos el primer elemento de s1
-			p2 = s2.getPunto(0); // guardamos el primer elemento de s2
-
-			elementosRestantesAmbos(p1, p2, paux, alturas, salida, s1, s2);
-		}
 		while ((!s1.isEmpty())) //si aun nos quedan elementos en el s1
 		{
 			elementosRestantes1(s1, alturas, salida);
@@ -144,7 +133,10 @@ public class Ciudad {
 		return salida;
 	}
 	
-	private void xMenor(Punto paux, Punto p1, int[] alturas, LineaHorizonte salida, LineaHorizonte s1) {
+	private void xMenor(Punto p1, int[] alturas, LineaHorizonte salida, LineaHorizonte s1) {
+		// Inicializamos la variable paux
+		Punto paux = new Punto();
+		
 		paux.setX(p1.getX());                // guardamos en paux esa X
 		paux.setY(Math.max(p1.getY(), alturas[1])); // y hacemos que el maximo entre la Y del s1 y la altura alturas[2]ia del s2 sea la altura Y de paux
 
@@ -157,7 +149,10 @@ public class Ciudad {
 		s1.borrarPunto(0); // en cualquier caso eliminamos el punto de s1 (tanto si se añade como si no es valido)
 	}
 	
-	private void xMayor(Punto paux, Punto p2, int[] alturas, LineaHorizonte salida, LineaHorizonte s2) {
+	private void xMayor(Punto p2, int[] alturas, LineaHorizonte salida, LineaHorizonte s2) {
+		// Inicializamos la variable paux
+		Punto paux = new Punto();
+		
 		paux.setX(p2.getX());                // guardamos en paux esa X
 		paux.setY(Math.max(p2.getY(), alturas[0])); // y hacemos que el maximo entre la Y del s2 y la altura alturas[2]ia del s1 sea la altura Y de paux
 
@@ -210,19 +205,35 @@ public class Ciudad {
 		s2.borrarPunto(0); // en cualquier caso eliminamos el punto de s2 (tanto si se añade como si no es valido)
 	}
 	
-	private void elementosRestantesAmbos(Punto p1, Punto p2, Punto paux, int[] alturas, LineaHorizonte salida, LineaHorizonte s1, LineaHorizonte s2) {
-		if (p1.getX() < p2.getX()) // si X del s1 es menor que la X del s2
+	private void elementosRestantesAmbos(int[] alturas, LineaHorizonte salida, LineaHorizonte s1, LineaHorizonte s2) {
+		//Mientras tengamos elementos en s1 y en s2
+		while ((!s1.isEmpty()) && (!s2.isEmpty())) 
 		{
-			xMenor(paux, p1, alturas, salida, s1);
-		}
-		else if (p1.getX() > p2.getX()) // si X del s1 es mayor que la X del s2
-		{
-			xMayor(paux, p2, alturas, salida, s2);
-		}
-		else // si la X del s1 es igual a la X del s2
-		{
-			 xIgual(p1, p2, alturas, salida, s1, s2);
-		}
+			// punto donde guardaremos el primer punto del LineaHorizonte s1
+			Punto p1 = new Punto();
+			// punto donde guardaremos el primer punto del LineaHorizonte s2
+			Punto p2 = new Punto();
+			
+			// guardamos el primer elemento de s1
+			p1 = s1.getPunto(0);
+			// guardamos el primer elemento de s2
+			p2 = s2.getPunto(0); 
+			
+			// si X del s1 es menor que la X del s2
+			if (p1.getX() < p2.getX()) 
+			{
+				xMenor(p1, alturas, salida, s1);
+			}
+			// si X del s1 es mayor que la X del s2
+			else if (p1.getX() > p2.getX()) 
+			{
+				xMayor(p2, alturas, salida, s2);
+			}
+			else // si la X del s1 es igual a la X del s2
+			{
+				 xIgual(p1, p2, alturas, salida, s1, s2);
+			}
+		}		
 	}
 
 	private void mostrarLíneas(LineaHorizonte s1, LineaHorizonte s2) {
@@ -241,7 +252,6 @@ public class Ciudad {
 	 */
 	public void cargarEdificios (String fichero)
 	{
-
 		try
 		{
 			Scanner sr = new Scanner(new File(fichero));
@@ -252,7 +262,6 @@ public class Ciudad {
 			}
 		}
 		catch(Exception e){} 
-
 	}
 
 
