@@ -252,6 +252,7 @@ public class Ciudad {
 				leerFichero(sr);
 			}
 		} catch (Exception e) {
+			System.out.println("Error al cargar edificios");
 		}
 	}
 

@@ -68,7 +68,9 @@ public class LineaHorizonte {
             }
             out.close();
         }
-        catch(Exception e){}
+        catch(Exception e){
+			System.out.println("Error al guardar linea horizonte");
+        }
     }
     
     public void mostrar(PrintWriter out, Punto p) {
@@ -82,7 +84,6 @@ public class LineaHorizonte {
     public void imprimir (){
     	
     	for(int i=0; i< LineaHorizonte.size(); i++ ){
-    		//System.out.println("X: " + LineaHorizonte.get(i).getX() + " Y: " + LineaHorizonte.get(i).getY());
     		System.out.println(cadena(i));
     	}
     }
