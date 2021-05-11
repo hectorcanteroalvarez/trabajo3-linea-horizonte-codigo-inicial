@@ -61,7 +61,7 @@ public class LineaHorizonte {
 			PrintWriter out = new PrintWriter(fileWriter);
 
 			for (int i = 0; i < this.size(); i++) {
-				p = (getPunto(i));
+				p = getPunto(i);
 				mostrar(out, p);
 			}
 			out.close();

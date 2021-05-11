@@ -23,10 +23,11 @@ public class Ciudad {
 		 */
 		ciudad = new ArrayList<Edificio>();
 		int n = 5;
-		int i = 0;
-		int xi, y, xd;
+		int xi;
+		int y; 
+		int xd;
 
-		for (i = 0; i < n; i++) {
+		for (int i = 0; i < n; i++) {
 			xi = (int) (Math.random() * 100);
 			y = (int) (Math.random() * 100);
 			xd = (int) (xi + (Math.random() * 100));
@@ -169,8 +170,7 @@ public class Ciudad {
 
 	private void xIgual(int[] alturas, LineaHorizonte[] fusion) {
 		if ((obtenerPuntoYLinea(fusion[0]) > obtenerPuntoYLinea(fusion[1]))
-				&& (obtenerPuntoYLinea(fusion[0]) != alturas[2])) // guardaremos aquel punto que tenga la altura mas
-																	// alta
+				&& (obtenerPuntoYLinea(fusion[0]) != alturas[2])) // guardaremos aquel punto que tenga la altura mas alta
 		{
 			addPuntoLinea(obtenerPunto(fusion[0]));
 			alturas[2] = obtenerPuntoYLinea(fusion[0]);
@@ -188,7 +188,7 @@ public class Ciudad {
 
 	private void elementosRestantes1(LineaHorizonte[] fusion, int[] alturas) {
 
-		while ((!comprobarVacio(fusion[0]))) // si aun nos quedan elementos en el s1
+		while (!comprobarVacio(fusion[0])) // si aun nos quedan elementos en el s1
 		{
 			Punto paux = obtenerPunto(fusion[0]); // guardamos en paux el primer punto
 
@@ -261,7 +261,9 @@ public class Ciudad {
 
 	public void leerFichero(Scanner sr) {
 
-		int xi, y, xd;
+		int xi; 
+		int y;
+		int xd;
 
 		xi = sr.nextInt();
 		xd = sr.nextInt();
@@ -292,7 +294,7 @@ public class Ciudad {
 	}
 
 	public void guardarPuntoX(Punto point, LineaHorizonte linea) {
-		point.setX(linea.getPuntoX(0));
+		point.setX(obtenerPuntoX(linea));
 	}
 
 	public int obtenerY(Punto paux) {
