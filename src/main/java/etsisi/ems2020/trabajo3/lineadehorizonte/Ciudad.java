@@ -82,7 +82,7 @@ public class Ciudad {
 		// edificio
 		Punto p2 = new Punto(); // punto donde se guardara en su X la Xd del efificio y en su Y le pondremos el
 		// valor 0
-		
+
 		p1.setX(edificio.getXi()); // En cada punto guardamos la coordenada X y la altura.
 		p1.setY(edificio.getY()); // guardo la altura
 		p2.setX(edificio.getXd());
@@ -134,10 +134,10 @@ public class Ciudad {
 		int max;
 
 		guardarPuntoX(paux, s1); // guardamos en paux esa X
-		
+
 		max = Math.max(obtenerPuntoY(s1), alturas[1]); // y hacemos que el maximo entre la Y del s1 y la altura
-		fijaMax(paux, max);							   // alturas[2] del s2 sea la altura Y de paux
-																							
+		fijaMax(paux, max); // alturas[2] del s2 sea la altura Y de paux
+
 		if (obtenerY(paux) != alturas[2]) // si este maximo no es igual al del segmento anterior
 		{
 			addPuntoLinea(paux); // añadimos el punto al LineaHorizonte de salida
@@ -145,7 +145,7 @@ public class Ciudad {
 		}
 		alturas[0] = obtenerPuntoY(s1); // actualizamos la altura alturas[0]
 		actualizarLinea(s1); // en cualquier caso eliminamos el punto de s1 (tanto si se añade como si no es
-							 // valido)
+								// valido)
 	}
 
 	private void xMayor(int[] alturas, LineaHorizonte s2) {
@@ -155,8 +155,8 @@ public class Ciudad {
 
 		guardarPuntoX(paux, s2); // guardamos en paux esa X
 		max = Math.max(obtenerPuntoY(s2), alturas[0]); // y hacemos que el maximo entre la Y del s2 y la altura
-		fijaMax(paux, max);							   // alturas[2] del s1 sea la altura Y de paux
-	
+		fijaMax(paux, max); // alturas[2] del s1 sea la altura Y de paux
+
 		if (obtenerY(paux) != alturas[2]) // si este maximo no es igual al del segmento anterior
 		{
 			addPuntoLinea(paux); // añadimos el punto al LineaHorizonte de salida
@@ -169,7 +169,8 @@ public class Ciudad {
 
 	private void xIgual(int[] alturas, LineaHorizonte[] fusion) {
 		if ((obtenerPuntoYLinea(fusion[0]) > obtenerPuntoYLinea(fusion[1]))
-				&& (obtenerPuntoYLinea(fusion[0]) != alturas[2])) // guardaremos aquel punto que tenga la altura mas alta
+				&& (obtenerPuntoYLinea(fusion[0]) != alturas[2])) // guardaremos aquel punto que tenga la altura mas
+																	// alta
 		{
 			addPuntoLinea(obtenerPunto(fusion[0]));
 			alturas[2] = obtenerPuntoYLinea(fusion[0]);
@@ -184,8 +185,8 @@ public class Ciudad {
 		actualizarLinea(fusion[0]); // eliminamos el punto del s1 y del s2
 		actualizarLinea(fusion[1]);
 	}
-	
-	private void elementosRestantes1(LineaHorizonte [] fusion, int[] alturas) {
+
+	private void elementosRestantes1(LineaHorizonte[] fusion, int[] alturas) {
 
 		while ((!comprobarVacio(fusion[0]))) // si aun nos quedan elementos en el s1
 		{
@@ -201,7 +202,7 @@ public class Ciudad {
 		}
 	}
 
-	private void elementosRestantes2(LineaHorizonte [] fusion, int[] alturas) {
+	private void elementosRestantes2(LineaHorizonte[] fusion, int[] alturas) {
 		while ((!comprobarVacio(fusion[1]))) // si aun nos quedan elementos en el s2
 		{
 			Punto paux = obtenerPunto(fusion[1]); // guardamos en paux el primer punto
@@ -215,7 +216,7 @@ public class Ciudad {
 			// valido)
 		}
 	}
-	
+
 	private void elementosRestantesAmbos(int[] alturas, LineaHorizonte[] fusion) {
 		// Mientras tengamos elementos en s1 y en s2
 		while ((!comprobarVacio(fusion[0])) && (!comprobarVacio(fusion[1]))) {
@@ -232,7 +233,7 @@ public class Ciudad {
 			}
 		}
 	}
-	
+
 	private void mostrarLíneas(LineaHorizonte s1, LineaHorizonte s2) {
 		System.out.println("==== S1 ====");
 		s1.imprimir();
@@ -269,31 +270,31 @@ public class Ciudad {
 		Edificio Salida = new Edificio(xi, y, xd);
 		this.addEdificio(Salida);
 	}
-	
+
 	public void fijaMax(Punto paux, int max) {
 		paux.setY(max);
 	}
-	
+
 	public int obtenerPuntoYLinea(LineaHorizonte linea) {
 		return obtenerPuntoY(linea);
 	}
-	
+
 	public boolean comprobarVacio(LineaHorizonte linea) {
 		return linea.isEmpty();
 	}
-	
+
 	public int obtenerPuntoX(LineaHorizonte linea) {
 		return linea.getPuntoX(0);
 	}
-	
+
 	public Punto obtenerPunto(LineaHorizonte linea) {
 		return linea.getPunto(0);
 	}
-	
+
 	public void guardarPuntoX(Punto point, LineaHorizonte linea) {
 		point.setX(linea.getPuntoX(0));
 	}
-	
+
 	public int obtenerY(Punto paux) {
 		return paux.getY();
 	}
