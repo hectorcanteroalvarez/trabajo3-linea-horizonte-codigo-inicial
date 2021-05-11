@@ -1,6 +1,5 @@
 package etsisi.ems2020.trabajo3.lineadehorizonte;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -23,6 +22,14 @@ public class LineaHorizonte {
      */
     public Punto getPunto(int i) {
         return (Punto)this.LineaHorizonte.get(i);
+    }
+    
+    public int getPuntoX(int i) {
+    	return this.getPunto(i).getX();
+    }
+    
+    public int getPuntoY(int i) {
+    	return this.getPunto(i).getY();
     }
     
     // A�ado un punto a la l�nea del horizonte
