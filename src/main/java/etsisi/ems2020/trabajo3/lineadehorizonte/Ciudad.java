@@ -13,16 +13,17 @@ import java.util.Scanner;
 
 public class Ciudad {
 
-	private ArrayList<Edificio> ciudad;
+	private ArrayList<Edificio> conjuntoEdificios;
 
-	private static LineaHorizonte salidaAux; // variable global para guardar la linea horizonte de salida
+	private static LineaHorizonte salidaAux; /* variable global para guardar la linea horizonte de salida */
 
+	/*
+	 * Generamos una ciudad de manera aleatoria para hacer pruebas.
+	 */
 	public Ciudad() {
-		/*
-		 * Generamos una ciudad de manera aleatoria para hacer pruebas.
-		 */
-		ciudad = new ArrayList<Edificio>();
-		int n = 5;
+
+		conjuntoEdificios = new ArrayList<Edificio>();
+			int n = 5;
 		int xi;
 		int y; 
 		int xd;
@@ -34,28 +35,28 @@ public class Ciudad {
 			this.addEdificio(new Edificio(xi, y, xd));
 		}
 
-		ciudad = new ArrayList<Edificio>();
+		conjuntoEdificios = new ArrayList<Edificio>();
 	}
 
 	public Edificio getEdificio(int i) {
-		return (Edificio) this.ciudad.get(i);
+		return (Edificio) this.conjuntoEdificios.get(i);
 	}
 
 	public void addEdificio(Edificio e) {
-		ciudad.add(e);
+		conjuntoEdificios.add(e);
 	}
 
 	public void removeEdificio(int i) {
-		ciudad.remove(i);
+		conjuntoEdificios.remove(i);
 	}
 
 	public int size() {
-		return ciudad.size();
+		return conjuntoEdificios.size();
 	}
 
 	public LineaHorizonte getLineaHorizonte() {
 		int pi = 0; // pi y pd, representan los edificios de la izquierda y de la derecha.
-		int pd = ciudad.size() - 1;
+		int pd = conjuntoEdificios.size() - 1;
 		return crearLineaHorizonte(pi, pd);
 	}
 
@@ -69,7 +70,7 @@ public class Ciudad {
 			int medio = (pi + pd) / 2; // Edificio mitad
 			LineaHorizonte s1 = this.crearLineaHorizonte(pi, medio);
 			LineaHorizonte s2 = this.crearLineaHorizonte(medio + 1, pd);
-			linea = LineaHorizonteFussion(s1, s2);
+			linea = lineaHorizonteFussion(s1, s2);
 		}
 		return linea;
 	}
@@ -102,7 +103,7 @@ public class Ciudad {
 	 * solucionar dichos problemas para que el LineaHorizonte calculado sea el
 	 * correcto.
 	 */
-	public LineaHorizonte LineaHorizonteFussion(LineaHorizonte s1, LineaHorizonte s2) {
+	public LineaHorizonte lineaHorizonteFussion(LineaHorizonte s1, LineaHorizonte s2) {
 		// en esta variable guardaremos las alturas de los puntos anteriores, en
 		// alturas[0] la del s1, en alturas[1] la del s2
 		// y en alturas[2] guardaremos la previa del segmento anterior introducido
@@ -118,7 +119,7 @@ public class Ciudad {
 		// variable global LineaHorizonte de salida
 		salidaAux = new LineaHorizonte();
 
-		mostrarLíneas(s1, s2);
+		mostrarLineas(s1, s2);
 
 		elementosRestantesAmbos(alturas, fusion);
 
@@ -169,7 +170,7 @@ public class Ciudad {
 	}
 
 	private void xIgual(int[] alturas, LineaHorizonte[] fusion) {
-		if ((obtenerPuntoYLinea(fusion[0]) > obtenerPuntoYLinea(fusion[1]))
+		if ((obtenerPuntoYLinea(fusion[0]) > obtenerPuntoYLinea(fusion[1])) 
 				&& (obtenerPuntoYLinea(fusion[0]) != alturas[2])) // guardaremos aquel punto que tenga la altura mas alta
 		{
 			addPuntoLinea(obtenerPunto(fusion[0]));
@@ -203,7 +204,7 @@ public class Ciudad {
 	}
 
 	private void elementosRestantes2(LineaHorizonte[] fusion, int[] alturas) {
-		while ((!comprobarVacio(fusion[1]))) // si aun nos quedan elementos en el s2
+		while (!comprobarVacio(fusion[1])) // si aun nos quedan elementos en el s2
 		{
 			Punto paux = obtenerPunto(fusion[1]); // guardamos en paux el primer punto
 
@@ -234,7 +235,7 @@ public class Ciudad {
 		}
 	}
 
-	private void mostrarLíneas(LineaHorizonte s1, LineaHorizonte s2) {
+	private void mostrarLineas(LineaHorizonte s1, LineaHorizonte s2) {
 		System.out.println("==== S1 ====");
 		s1.imprimir();
 		System.out.println("==== S2 ====");
@@ -269,8 +270,8 @@ public class Ciudad {
 		xd = sr.nextInt();
 		y = sr.nextInt();
 
-		Edificio Salida = new Edificio(xi, y, xd);
-		this.addEdificio(Salida);
+		Edificio salida = new Edificio(xi, y, xd);
+		this.addEdificio(salida);
 	}
 
 	public void fijaMax(Punto paux, int max) {
